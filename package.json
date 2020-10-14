@@ -1,0 +1,21 @@
+{
+  "name": "taskmachineserver",
+  "version": "1.0.0",
+  "description": "Rest / GraphQL API for a todo app that can be deployed on firebase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/AdrienMazet/taskmachineserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/AdrienMazet/taskmachineserver/issues"
+  },
+  "homepage": "https://gitlab.com/AdrienMazet/taskmachineserver#readme",
+  "dependencies": {}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "functions",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "serve": "npm run build && firebase serve --only graphql_functions",
+    "shell": "npm run build && firebase graphql_functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only graphql_functions",
+    "logs": "firebase graphql_functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "apollo-server-express": "^2.10.1",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.6.0",
+    "firebase-functions": "^3.3.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6",
+    "tslint": "^5.12.0",
+    "typescript": "^3.8.3"
+  },
+  "private": true
+}
